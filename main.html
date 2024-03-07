@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfilo website | Shreyash Naik</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+    <header>
+        <div class="container">
+            <div class="section1">
+
+                <div class="img-article">
+                    <h1>Hi, I am Shreyash Naik.</h1>
+                    <p class="about">
+                        I am a 2nd year CSE student specialization in Blockchain Tech at VIT Vellore. I am a
+                        self-taught and i love to code.My main interests are Blockchin Tech and its working.
+                        This project was my first responsive portfilo website. I learnt a
+                        bit about html using div, nav, image and link tags.
+                    </p>
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKL_iDFb77SLVOQg70V43MfLOsdWXl8cCnqYzNT3nradJ14dmx5U3p0azGirK-kZrAdoc&usqp=CAU"
+                        alt="" class="pic">
+
+
+
+                    <a href="#" class="down"><button>Download Resume</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section2">
+        <div class="container">
+            <div class="section-p">
+                <p class="r-p">Recent posts</p>
+            </div>
+            <div class="recent-posts">
+                <div class="post-item">
+                    <a href="https://github.com/shrxyeh/Hardhat-Simple-Storage" target="_blank">
+                        <h1>Hardhat Simple Storage from scratch</h1>
+                    </a>
+                    <p>25 Dec 2023 Design |</p>
+                    <p class="post-article">
+                        This project is about creating a simple storage contract using
+                        Hardhat and Solidity.
+                    </p>
+                </div>
+                <div class="post-item">
+                    <a href="https://github.com/shrxyeh/Ether.js-Smart-Contract" target="_blank">
+                        <h1>Ether.js Smart Contract</h1>
+                    </a>
+                    <p>13 Nov 2023 Design | </p>
+                    <p class="post-article">
+                        This project is about creating a simple storage contract using
+                        EtherJs and Solidity.This contract has been implemented on blockchain live and you can check it
+                        out.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <div class="container">
+            <div class="c-p">
+                <p>Featured works</p>
+            </div>
+            <div class="f-w-item">
+                <div class="f-w-img">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoGBxMTExYTERMWGBYZGRkWFhoZGRYWGhkZFhkZGhkYGhkaHysiGxwoHRkaIzQjKCwwMTExGSI3PDcvPCswMi4BCwsLDw4PHRERHDAkIikwMDAwMDMyLjIyMjIyOjAwMDAwMDAwMDEwMjAwMDAuMDAwMDAwMDAwMDAwOTAwMDAwMP/AABEIALABHgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAwQFBgcCAQj/xABIEAACAQIDBQUEBQoFAgYDAAABAgMAEQQSIQUGMUFxEyJRYYEHMpGxI1JyocEUJDNCYnOCorLwNEOS0eEVwlODo8PS8QgWY//EABoBAAIDAQEAAAAAAAAAAAAAAAADAQIEBQb/xAAuEQACAgEEAQIDCAMBAAAAAAAAAQIDEQQSITFRE0FhcZEFFCIyM6GxwUKB0VL/2gAMAwEAAhEDEQA/AMpoooraZgooooAKKKKALjuRtoEDDyHUfoyeY4leo4jy05VcY6x4Hwq27B32KgJiQWA0Dr738S8+o+FKnBvow6jTNvfH6F9jp1FUDhd5cIwuMRGPtNkPwaxpSfe7BRi5nVvJbuf5QR8aw2Qk+kzMq5+GWOKqX7St7AqNg4Wu7aTMP1V5xg/WPPwGnPSJ3g9okkgMeFUxqdC5t2hH7NtE66nzFUw1ajSPdvn9DbTQ090jyiiiuiagr2vKmt3d2nxJzXyRA2LW1J5hRzPnwHnwoKylGEd0nhEMq3NhqToANSegqZwO6eKl1yZB4ucn8urfdV82VsWGAfRIAebHVz1b8BpT+1RuObb9o+1a+pTMNuB/4k3oq/8Acx/Cn0W4mHHvNI38Sj5LVmtRaq5ZklrLpf5EAm5eE5o5/jb8KXO4mDPBZB/G341MWp5GlgBWTVWSgk02hlOotllOTKnN7O8MfdklX1Qj71vUfivZu3+VOD4B0I/mUn5VfrV4RWVamxe5pWosXuZRj9zsZFr2eceKHP8Ay6N91QroQSGBBHEEWI6g8K3C1MdqbIhxAtNGG8G4MvRhqKfHWv8AyX0Hw1X/AKRjdSmx9gTYi5RQFBsXY2W/gNLk9BS29m7zYRxYlo3uUY8dOKtbS4uNed60vZGzljw8Kp7ojS3ndQSfUkn1rTO+KipL3GW3bYJx9zP5dypQO7JGT4d4ffY1A4vCPE5SRSrDkfuIPMedbBLhqp/tFwgEcb272bJ/CQxP3qKvXapCaNRNz2y9ykUUUU02hRRRQB7UpsbdrEYkFoY7qP1iQqk+ALcT0pzuXu9+VzWa4iQBpCNLg+6oPItY6+APlWtwQqgCIAqqLKALAAcABVJWYMWq1fpPbHl/wYNRU1sjdmWYBj3EPAsNSP2V8PM29anI9zYAO80hPjcD7gKvgfPUVweGyk17Vn2nueVBaFyxH6jWuejCwv1+NVl1IJBFiNCDoQRxBHjUjIWRmsxZzRRRUFgooooAKDUzuxunisc2XDxXUGzSN3Y16tbU+SgnyrYtzvZjhcJlklAnmGuZx3EP7EeoBH1jc+FqrKSRJm253szxeNyyOOwhOudwczD/APnHxPU2GuhNaXg/ZBstUyvHJI3N2kdT8Iyqj4VZdsbdgwy5pnsT7qjVm6L+J086oe3N9Z57pHeKPwU99h+0/LoPiarGM59cIpO6EO+yt78+zJcOxbBYiNxzhkeNZV+ySQHHkbH7RrP5EIJBBBGhBFiD4EHhWjJUHvlggUEoHeUhWPip4X6G3xNaHVtj3kTDU7pYawVzZeE7aaOK9s7Bb+AJ1PwvWuYbDqiqiABVAAA5AVkWzsUYpUlGpRg1vGx1HqK17Z+KSaNZIjdWFwfmD4EcLVltbRl16k9vj+zopXlLhaDEKUrl7nMcPAhavbUq0Rri1NjJS6FtNdimGivqfSnNq8wvu0pauTqJuVjz7G6mKUVgWwWzZJQSoAHixsL+gpjtvdjFEEqyyL9VCVPwPH43q44KMLGijko+J1P30qTXQ09arxLGWdFUR289mPiR42NiyMDYjUEHwIPyNSeC26DpKMp+sOHqOVXrbOxIMQPpV73AOujD15jyNxVD29upPh7so7SP6yjUD9peI6i46VrnXVcvxLkTOpxK17Ttpo7RQoQSt5GI1tmFkF+lz6ipb2f73wmFcNiXEboMsbsbIyD3VLHRWA014gDnULj8BHKO8NeTDQj1qvY/ZDx6jvL4jiOopM9HH09n7j47JwUGbHtHaGHiXPJPEq+brr0ANyfIVlm+e8IxUgEYIiS+S+hYnixHLhYDw62EBYcq9qtOmVfOcl66Iwee2eUUUVpHBRRSmHhLsqLxdlQdWIA+dAGsez/ZwhwcZt3pPpW6N7n8gX4mp+uI4wqhV4KAo6AWFdVz7Jc5PPye+bk/ch4sPSpwtOsOlOnUWp7tJZAzQ1R9+sAEZZVFs11b7S8D1I/prRcUlUv2hECJBz7S/oFa/wAxV4WZeDZpcqaKTRRV33F9nD4tVmxDGKA6qAO/IPFb6Kv7RBvyHOnHTbwVLZmzpsRIIoI2kc8FUX08SeCjzNhWp7oeyJEtLtBhI3ERITkH230L9BYfaq8bG2NBhI+zw8Sxpxa3FrfrOx1Y+ZNQu3t/oYrphwJX4Zv8tfUav6aedV5lwijsSLO0kGHiF8kUSAADREUclUDT0FU7b3tBZrpgxlHDtGHe/gQ8OrfAVTtpbVmxD55pC55Dgq+SqNBSK0yFKXL5M87m+FwLyTM7F3Ysx1LMSSepNdLSS0qtaEZmKrUdvX/hn6r/AFCpFaVjwEc/0cgJQ6kAlfd1Go14iibxFv4ERkoyUn7GZgVpvs/2ZJDA3agrmbOqniosBcjkTbhUns3YWHhN4okVvrWzN/qa5++pMCuPbemsItfqfUjtiuDwCuwtCrXYWsUpmVROMtBjB4ilgte5ap6rXRO3I2ERBup9DSqyeOh/vnXeWvGWiU1P831JjHb0WuH3V6D5UE1zF7q9B8qCa7EejrZ4AmvCaCa5Jq6Ktle29ujBPdk+ik8VHdY/tL+IsetULbOxZ8ObSpYcnGqHo3j5GxrWyaTmjVgVcBlOhBAII8CDxpkZtCpRTMIx+ykfUd1vEcD1FQeKwbxnvDTkRwPrWxbe3FVrvhTlPHs2PdP2W4r0Nx0qjY7CPGzRyoVYcVYf3cefCr4Uui0LJR4ZT6Kk9pbNy96PhzHh5jyqMqjWDTGSkso9qZ3Jw3aY2EWuA2c/+WCwPxAqFq4eyzDXnlk+ogX1dv8AZT8apN4ixd8ttcn8DSb0XrjNRmrmTOLBCMT0o0lZlsffiWIBJl7RRoCTlcDzbUN66+dTJ9oUFv0Ut/4LfHN+FOlVNPo3y0sk+i04hqzDe7awnl7hvGgKofrE+83Q2FvIDxpTb+9kuIBQARxnioNy3kzcx5AD1qBJrRVW48yNNNOzl9lv9mO6gxkxklW8EVi4PB3Oqp05t5WH61bXNOkSF3IVEFyeQA/vhULuLsgYXBwxWsxUSSfvJO81+mi9FFV32mbaLOMKh7q2eXzY6op6DvdSPCnpZZE55ZGb0b1y4piqkpAD3U4Fv2ntxPlwH31CrSS0qtPSwJfIotKKakd1tgPi5cgOVFsZH8AeAH7R1t0J5VoOD/6ZCRh17DMTlIYK5ZuFmcg96/Imqys28dhGvd8DMlpRavr+z6Jp2fOVgNiI194HmMx4L8TrbS1Nd8d1IoIe2gDLlKh1LFgQxsCL6g3I8taFdFtIiVMkm/BUlp9sn9IPX5UwWn+yP0i+vyNWt/Tl8mZZdE6ortRTXFY1YyoYOS5yqEVnJPgAOdPMJFM5/wAPOo43dVUfAtf7q4MoTkspcEQrk1lI6UUoBXiimuJxMjSxYeDL2jnUsCwVfEgEcgT6edZowlZLai0Y54HoWvctPV3eljUvLiVIAuQsWW/lcuTSAWlXxlU0m0OlVKH5hHLXLLS5WuGFKjYU2lgj90dB8qjP/wBkw35QcL2wEwt3TcAki+UMdC1rG3HXrUkh0HQVn27yA7exRIBskhHkbxLcedmI9TXpYLKN5oBNck1Sdyt4MXicdikkdDBGzWUr3l77JGqEW0shJzX8rXq17v7ZwmKz9jiEcoSGUGzCxtmsbEqTwYaHxq7/AA9htbeEOCa5JqQ/KtcsSA+lv79aVxOEVhyBP9286r6mHyifRyuHkhyaiN5Nhpio8psJF/Rv4HwPip5j1qcxWFZOPDxHCmpNNi88ozSTi8MxrFwNGzI4sykqwPIiq7tLDZG04HUeXiP78a1D2kbMAKYhRx+jk6gXRvgCPQVQ8Zg2lGWNSz3uoHE+IHpf4VeWMZGVTwyBq/eyxbRTNzLqv+lb/wDcaoTqQSGBBBsQRYg+BB4Grr7McULTR87q48xYqfhZfjSZLKJ1mfRf+v5L1mrzNSWejNWOdZx4MxSiiitx6EKVwkYaRFPBnVT0LAGkqcbO/SxfvE/rFAH0kNOlYrj8WZpZJTxd2f0Y3A9BYelbRP7rdG+RrDouA6VeBiYqtKCkxV93W2RFhIPy7FjvWDRqRcqD7tgf8xvuB5a1dywRjJ7tNjgNnxQJ3ZprmQjRhcAvr4gFU6XqmpUhvFt58XIHdQqqCEUa2BNzc8yfHyptHhCYmmHBXVG8s4JUnyJUjraiCwuSJPL4H2J3gxLyCVp3zLqtiVUW8FGlvnzvV/8AaDiwMHlOhkZAB0IkP9P31Sd0thtiJQzC0KHNK50Wy65ATpc8/AXPheQ3q2l+VydoGy4eO6I5HvsfeKLxdjYacgASVvS5JOax7F4yahLPuQCDw60/2P8ApV9fkaayTA91BlTw4lvNjzPlwHIcSXOx/wBKvr8jTbf05fJmOXRIbdQ9l2ie/Eyyp5FDf5XrQMBilljSRfddVcdGAI+dU7KCCDwIseh41J+z7EEwGFj3oZGj6rfMp6akelcuiWYOPj+zRpJcuIjtLLC0hbRUuf4eI+6vfZ1gS/aY2Ud6QlY/JAdSPUBf4POkd/sDLNLh4IgQJmKu31RHZtf4SW/gq2r2eHhsBljjWwHgqiwFRXUqk35/gfVUozcn0hhvLtBUGVmCqNXJIA8hc/H4VBYXaaS/olkk5Xjjdh8bWqP3O2adqSvj8Zdog5WCI+7pxZhzA0Hmb8gBV+kxMcQCkhRbRQOA8gOArPbpa23K1/vwi7r3vdJ4RXgj84pR1jb5gG1cOKsUe14jzt1BA+NVzaW0FZ2a97nS3gNB91YrNPDj0m38OxFyrhHO4m04DoKoOyR2W3sQJCB2sTGO+mbN2TADxPcf/SaviHQdB8qr2+W6UeOVTm7OZPckAvpxysOYvqOYPqD6CHCGplb9mZ/Otpfa/wDcmpL2KKi4fEStlBDqGc2FkWMNqTwAuTUdhExOw5WaaJZYpkyZo2bKGUnKMzLo2p7pGobQ6Gn3spway7PxcchKpIzRs2gsDCqsRfTQNerln0/9Glz7XEMTO5VUVSzOeAUC5J8TRsrFQTxjELMkiHgVNxfwPO4+rpas+23saTB7FxEEkvaZSMrajuGWPKLEnLbXQEik9i7WXZ+xop0iDOx4Xy5neRhmYgX0UfygVRw8cApceecLwaRj9oZxlAsvnxP+1R5NUndz2nwTHJiVELcA2bNGerWuh66edXQOCAQQQdQRqCPEGmwiksIRa55zIid8YQ+EmB5KGHVWB/Cs62J+ni+2K0jef/Cz/u2rN9i/4iL7Yot/Tl8mUj0yxbx7uRYpbmyygd2QDXyDfWX7xyrPcHPNgsRcrZ0OV15Mp4i/gRYg9DWtGqV7TcEMsUw965ibzBBZfhZv9VcrS3NS2vpjap5/BLlMsezdqRToJI2uOY/WU+DDkac56yHCYp42zo7K3ipseh8R5GpqDfXEqLN2b+bKQf5SB91dFxTM9mgefwPgr9FFFWOmFL4D9LH+8T+oUhS+B/Sx/bT+oUAfSM/ut0PyNYdFwHStxm91uh+RrDouA6VeHuYiU3bwQnxMMTe6zjMPFVBZh6hSKtftRxpzQwDgAZWHmSVX4Wf41W9y8QseMgZjYZit/N0ZB97CrtvxuzJiSksFi6goyk5cy3JFidLgk6Hx8tZbxJZJS4Zna1K7v7Xlgc9kqv2gyNGylw/gMo1J426mnWH3OnUZ8S0eHjHFnZWPRVUm58riun2zFACmAUgkWadx9Iw5hB/lr9/Q61ZtPhclMNc9EptjasgQJjCo+rhIu4o5gzsCSBzyA3OnCq7isY8rZnI0FlAAVUXkqKNFXyFNb3NzqTqSdSSeJJ8a7WpjFIrOTkLLT/ZPv38Afv0/GmC1L7Nhyrc8Tr6cqLGtjT9zLbLbEkFnPhS+7GK7PGleAmj/APUi1H8t/jTMV4F78cgNmjcOPO3FT5EaVijXGLykIovcLE2+DRFA0NuHDyqC3qx4P0I5jv6/WFgPgb+orht6vqxfFv8AYVAY3F6PK5+s7H7zaqyipcM36jWJw21vlk37L/o8GMM+kkTyBh4h3Z1YeKkNa/iCOVTe09jiY5hLJGbW7uQg9Qyn7iKpOzMYzRJiYhIqNfK+VhwJU3I0AuD5G3Onse90w0jYSNyXJmP8ljRKrf2sjK9XlKFsXn5Erjd2ZQCVkDnzGU+huRf4VAuCCQRYjQjwI4ir/gZWaNGkXK5UFl45SRqKpO23BnkK8Ln4jQ/feiPHBn+0NPCCU48Z9id2bNmiQ+Vj1XT8KWJqC2FjMrFGOjcPJv8An8BU2TTkPos3wTOMRErqUdVZToVYBgR4EHQ02GzYhC0CRokTKyFEUKtnBDWA01uadk1wTV0XbMc2ptafCYTEbKxSMzXXspCdMgdG0B4pZNLcCxBtarTs/YhxWxIoBo5jzx30GZZGdb+AI0v+1Vu2ls2GcBZ4o5ADcB1DWPiL8KjN7JMRFhs2AQGSNksgUEGNbhlCcxa2i66aUYLuzOEuHkpeysfgsXFHgdowmHERKsKPbIbqMqjPbutoO6wyk9avW72yvyWCOAPnEeYBrZbguzC48QDb0rON5d5sJjsM5mhMWMSwUhSc1msyFrXAtm7r8DwvV+3OxjTYKCRzdjHYk8SUJS58zlvVokXJ7fHPX/BXec/ms/7tqzvYv+Ii+2K0PeY/m0/7s1nuxB+cRfaFFv6cvkxMOmXc1SPaZj1+jgHEHtG8tCqj1ux9B41Lby73RQApGQ83Cw1VD4uR/SNelZxisQ8jtJIxZmN2J4k/3y5VydLRJyUpdGiip53MSooorpmkl92dgtipCoOVEALtxOvBR5mx6Wq3Dc7DKLdmT5l3v9xA+Arj2TMrRzx/rhlfqpXKPgQfjVxlwtY56nbNxOfqbLN+E8Gbbw7phEaSG9lF2Qm+g4lTx08Deq3gv0kf20/qFa5tVVjikd9FVGJ6AGsiwWjp9pfmK0V2b1kfppzlF7vY+lJeDdD8jWGQ8B0FbnLwboawyHgOgp8PcWLCpvD72Y1FCLO1gLC4Rj/qZSfvqDWlFpmEwHeLxskzZppGdvFiTbpfgOlcLSa0olWQtiq0oteYeFnNlF/75mpXC7OVdX7x8OX/ADUSmo9ibLIw7E9n4TN3m935/wDFSwrgV6KzTm5MwTm5vLOxS0MRbpXkEN9Tw+dO1rn6jVbPww7GV07uZdHscSjgKa7wbObEQNCkmQta5tmuAb24jnb4U8BroGuY7JqSlnlG2KUeiw7IxGHiijhjbKqIqKG0NlFhc8zTw7SiH+Yvob/KqoDXoNOeun4RrWofgnMdtsWKx3+0dLdBUH2C/VFM9s7XiwsRlmaw4ADVnbkqjmflztWY7wb84nEEhGMUfJUNmI/acak9LDrVa4ajUyynhfsG2VzzI1iR4k94ovUqvzp5g9rRNp2qE+IZTf4Gvndzc3OpPEnUn1rnKPAV0KNFOqW5Tz58DFQl0z6YJrgmsN3Y32xODsqt2kP/AIbklR9huKemnka1HdvfLDYyyxtkl5xvYN/CeDjpr4gV0UKsrlEnia5Jr0muCauhDZDbd3WwuKOaaLv/AF1JRiPAke963p9gcIkUaRRLlRAFUanQeZ4nzpwTXJNWSKSm2sZI3eY/m032DWW49iI3IJBsdRpWo7yn82m+way3aX6N+hofQ2j+yu0AU52bgWmkWNOLHjyAGpJ6CtI2JsiGAARqM3NzqzdT+A0rPKW1ZNN18auO2ZlJh3UXZGUeJUgfEikq26DXQ1C7d3AgxBDxEQvfvZQMjD7JIs1+Y871m+9pPEuCleqUvzLBnOw9rS4WVZYjZhoQdVZTxVhzB/AHlWgRe1HDFfpMPKH5hSjLfyYsD91ZjRTLNPCx5kuTROuM+0WPevfB8WOzVezivfLfMzEHQu332HPx0qvwuFZWPAMCegINcV6abCEYLESVFRWEfS7G4PQ/KsMh4DoKuW4XtFhMUeHxrdm6AIsje46gWXM36jW0JOhte+tqquNwZhkeJuKEi/iP1WHiCLEeRpsDLKLj2crXa1wKaYvayJoveby4DqaZnBVRb4RIlwBckADiToKjMdt8DSIXP1jw9Bz9aiMXjHkPfPQcAPSkKW5+B8KUuZEtsjeGWGTPmLBvfVjow8vAjlWgbJ2pFiFzRtf6yn3lPgR+PCsppXDYl42DxsysOBU2P/15Ut8i79LC3lcM2BIiacRQgedUPZPtBdbLiI84+ullb1U90nparPgd7MHLwmVD4PeP720PoawXet1jj4GL7o4drJOA10DTeGdH1RlYfskH5UuK58kwwdg10DSLyBdWIHUgfOovHb2YOH3plY+Ef0h/luB62qirlLpZLxi30icBqK3j3lhwaXkOaQjuRqe83mfqr5n0vwqm7a9o0jgrhUyD672Z/RdVX76p00rOxd2LMTcsxJJPiSeNa6Ps+UnmfC8e5qrofch5tzbMuKkMkrXPBVHuoPqqPx4mo+iiuvGKitsVhGpcBRRRUgFeq1tRoRqDzBHAjzryigC6bs+0maG0eJBmjGma47RR1Oj/AMWvnWk7J2zDiU7SCQOOY4Mp8GU6qetYHS2CxckLiSJ2RxwZTY9PMeR0NSpYEzpjLrhn0CTXBNUHdz2lA2jxq5Tw7RBoftoOHVbjyFXjDYlJVDxOrqeDKQwPqKdFpmC2uUO0M95D+bTfYP4Vlu1XtE3noPWrrv8AbyRRRmENmka2ZVNyqg37x5EkDTwvWY43GNIe9oBwA4D/AHNVnJI0aeuWMsndwkBkkbmFAHQtr8hV6grON0sYI8QuY2VwUPlmtY/6gB61pEFZrOhGri1Zkf4epGGo/D1IQ1x7xUT5/oooruHZCiiigApzBj5EAAYkDQA6gDwF+A8hTartitx4TsddpQSSs4C9qjBcq2fs5LWW9g2up90etQ5YJ27ipT4+RxYtp4DSm1aLsb2WibZZxpklE5ikljjGTKwXMYwdL3ZQDx/WFRu6e5UM+zsTtDEySIkWfswmQZ8iAnVgeLEKLcwaj1ESq8dFMoqc2ZuXtCeITRYSV4yLhrKuYeKhiCw8wDep72U7oQ43EYiHGpIOyRTlu0bK+cqwYcb6cDQ5JLIKLKLRVh2zuTjoFkmbCyrArMQxANkBNmZQcyi3EkCrNuluJsrGJCox8v5Q8avJEmQlGyguPcNgDpcmhzSWSVBmcUVZfaJu7h8BiRh8PM0lkBlzZSUck9w5QB7uU2461M+zzBYV8DjHn2fJiHXNaRcllURghQWcGNgbsWA4EcbAVG7jJG3nBQQB4UoJ3+u3+o1LbG3Ox+Kj7TD4aR05P3UVraHKXIza+F6ZzbGnScYZ4mWcsqCNrKxZ7ZQLm2txY3sb1bMSGmMW11OvXWipDaWwcTBMsE0LpM+UohsS2diq2sSDdgR1FPTuVtDthB+SSdqVEmUZTZCSAzMDlUEqwFyL2NGYhtZBUVK7c3YxeDCnFQPGGNlY5SpNr2zKSL21tfkfCpn2Y7nxbTmmimkkjEaK4KZbklrWOYHShySWSVF5wVGitGx+5+w4xIP+qv2iBhlJj99b90/R+ItUePZfif8Apy40doZmt+bCF+0AMmS9817Ze/7vA+tV3onYyk0Voey9w4p9inFxQyvjCxVVUsbkYgR+5w0S9zysSeFU/bm7eLweX8qgePN7pNipI5BlJF/K96lSTIcWiMoqc2buXtCeITQ4SRoyLhrKuYeKhiCw8wDTbZW7mKxEjxQQSPJH+kSwRk1t3g5FjfS1TlEYZGUVLzbqY5WiRsLMHmDGJct2YJbMco1UDMLlrcb0ptjc3H4WPtcRhXjjFgX7jKLmwzFGOW5IGvMioygwyErqNyvuki/GxIv1tVg9nMML4+JJ8O2IQh/o1ykkhSQxViAwABJF/jaxX3i3fkn2jiIdn4KVArL9FYfRgotyxDFUDG7AZudvIG7nBO3gq4FeVKbc3YxeDynFQPGGNlY5SpPG2ZSRe2tr8jUXVs5IaPauu7W96BRHiSQRoH1IYcs1tQfPh0qk0VEoqSwxdlcZrEjX494cIoucTFbydSfgDeoHbvtJCkLg1Bse88gIB8lW4PqbcOHOs/rys/3WGcy5FQ00I/EKKKK0mgKKKKACtX9iOKTEYfG7NmPddS6665JV7OS3hYhD1esopxgcfNC2eCWSN7Fc0btG1jYkXUg20GnkKrKOVgtF4Zvjbyph9rYbZkekIwxjyi1g5AaNT0jiIH7yoP2nNh9nYLCbPQWhknDSLYm8Mcglk4ftuluhrIJNozNL27TSGa4btS7GTMoAU575rgAAG/IV7tDaU05DTzSylRZTI7yEDjYFibClqrkvvPonb4YyYaXDpjJEABUYWaFISDYjtFd1DqRa3EAcLc4rdTHrNtrGsIHhdYIo5lcLmaRXaz3UkEGMpY31AFYrs7eTGQp2cGKnjT6qSOFF+OUX7vUWpDCbZxETtJFiJkd/fdJHVn1v3mBu2vjR6XxDebruXHtRJ8a21GH5PcmIu0ZWwZtVCnux5LXDW4jneqvuFsbaOAkabC4COaHFZGQtMsbRRZ3ZQwfvAlXUkWPujnpWcYreLFyR9jJip3j4ZGkdlI5AgnvDyPClcBvZj4E7OLGTKg0CiRiAPBQ18o6Wo9NhvRovtG3CTFbQijwHZRzSRSTYgElVAV1VZMqgnMzOw0GuW/iaW9m+zZMPgNrQS2zxtKjWNxcQcQfA8fXlWUwbZxCTGdJ5RMb3k7Ri7XFu8xN2Gg4+A8KvY9oWCgwE2HwUGJ7edSJpJmBzSOmR5WYyMSx1awAFzyocZYwCa7LfupPLPgMFBNhcbEOziEc2GlCIVChVdykiuAVsxVlI1vrWae1LZzYXaTgYh5XIjlzuV7RWtZQxUAZgEUggDQrURgt6sdCnZxYydEtYKJHso8F17vpao2aVnYu7MzMbszEszE8yTqTUxg08kSllH0HsnCQbUXZ+1HIDwq5YaWz2ysDfkkilh8edQG5u9k2Kl2jMuEnmgkkVVeFlSREyFEVc7ofcAfuNdWe9tb1kuF2ziIo2hinmSJr5o0ldUbMLNdQbG40PjRsvbWIw5Jw88sd9SI3ZAftKDZvUVHpE7zRvbDsHs8Jh5xPiSO0KiHEydqy9opYkMSWuMgBBZhY6W58f/jv/AInE/uk/rNZ1tLas+IYPiJpJGGgMjs9geIW57o8hXmztpTQEtBNLEWFmMbvGSBrYlSLirbHt2ld3OTX96odpTRYiFdhwKriRRKJcPmym9pALg3trbjTrYu09oYnYCS4SQvjLlQw7INZMQVIswCC0YHHlWRnevaB0OOxVv383/wAqb7K27icMCMNiJYg3vCN2VSeFyoNr2HHjVfT4LbzV9ibSnwm7ck0ZKTo0i3IF1ZsUUbQ6XGY+te7a2h+U7vQT405z2kRla2pVcR2bGy8zHcaeJrJZNs4lo2ibETGJiWZDJIUZi2csyk2JL965561y21ZzCIDNKYRwjMj9mLHNpHfLx14can0/5I3n0RvAGL4eXDpi5EABQYWWCOIg2I7RXdQ6lbW4gDw5xO620Fm21jCIHhdcPEkyuEzNIrtZ7qSCDGY7G+oArFdnbx4yBOzgxUyJ9VJHCi/HKL2U+YtSOE2ziInaSLETJI/vukjq7637zA3bXxqPT+JO80rczfDHz7UnZ4mxSxrMgROyjaKPtU9wtlDe4gys1za97jWV333cOJwEkiSY2El1IgxMudXYuqqveZ8t2ay2e17acLY9gtqTwuZIZ5Y3OrOjujNc3OYqbm58aW2nt/FYi35RiJZApuod2Kgj9YLewPna9T6fOURu4L7udubiNm7YwS4ho27RZ2UxsxF0hYMDmUG4zDrerTs/aEyY7aqLg5pYmkiDSQOiSKzQItlzOhNhrdWupN+dxSNy9+sLC35RtBcVicWhZYZM+dUjZAuUZ5QLk5ySVPvVXcfvji3xU2JimlhMr5ykcjqoAAVQQLByFAFyOXKquMpPklSSRdPbFsIR4TDzifEkGQqIcTJ2rJ2iFiQxJa47MAgsw10tzy2ne0tqz4hg+ImkkYaAyOz2B4hbnujyFNKZFYWCknlhRRRVyoUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFACmHgZ2CIpZmNlVQSSfAAcasS+zzaBTP2Sj9kvHm+F7ffVj9l2z0jhOIIBkkLKp+qimxA6sDfoKuJxdYLtTOM9sUuPJlt1O2WEYXi8I8TmOVGR14qwII/486RrUPaPgUmw5lsO0isQ3MoSAyny1v1Hmay+tVVnqRy1hj67FZHIUUUU0uFFFFABRSkMDOwRFLMxsqqCSSeQA41ft3/AGWlgHxshTn2aWLdGc3APkAetVlNR7KTthWsyZntFbbhtzNnxCwwyN5vdz/MT91ez7tYIixwsPoir96gGl+svBm++w8MxGitM2v7PsM4JgZom5C5kT1DHMPQ+lUHbGx5cM+SVbH9VhqrDxVufTiPCmRkn0PquhZ0MaKKKsNCiiigAooooAKKKKAP/9k="
+                        alt="" />
+                </div>
+                <div class="f-w-text">
+                    <h1><a href="#">
+                            Ether.js vs Web3.js</h1></a>
+                    <div class="f-w-text-p">
+                        <p><span>2023</span></p>
+                        <p>Ether.js | Web3.js</p>
+                    </div>
+                    <p class="f-w-article">
+                        Ethers.js and Web3.js are the most popular JavaScript libraries to interact with smart
+                        contracts. If you are new to Web3, then you might be super confused about which is best. Well,
+                        both of them have their pros and cons, but nowadays most developers are using Ethers.js because
+                        of its user-friendly syntax
+                    </p>
+                </div>
+            </div>
+            <hr />
+            <div class="f-w-item">
+                <div class="f-w-img">
+                    <img src="https://w7.pngwing.com/pngs/186/608/png-transparent-html5-icon-%E2%80%A2-html-social-network-icon.png"
+                        alt="" />
+                </div>
+                <div class="f-w-text">
+                    <h1><a href="#">
+                            What is HTML?</h1></a>
+                    <div class="f-w-text-p">
+                        <p><span>2024</span></p>
+                        <p>Html</p>
+                    </div>
+                    <p class="f-w-article">
+                        HTML stands for Hyper Text Markup Language HTML is the standard
+                        markup language for Web pages HTML elements are the building
+                        blocks of HTML pages HTML elements are represented by <> tags
+                    </p>
+                </div>
+            </div>
+            <div class="f-w">
+                <hr />
+                <div class="f-w-item">
+                    <div class="f-w-img">
+                        <img src="https://www.cyberbahnit.com/wp-content/uploads/2017/11/blockchain.jpg" alt="" />
+                    </div>
+                    <div class="f-w-text">
+                        <h1> <a href="#">
+                                Get started with Blockchain</h1></a>
+                        <div class="f-w-text-p">
+                            <p><span>2024</span></p>
+                        </div>
+                        <p class="f-w-article">
+                            Blockchain technology is poised to revolutionize the way the digital world handles data and
+                            does business. Initially created as a platform for supporting Bitcoin, Blockchain is
+                            demonstrating a level of versatility and security that has made many sectors of business and
+                            government take notice and begin putting it to their use.
+                        </p>
+                    </div>
+                </div>
+                <hr />
+                <div class="f-w-item">
+                    <div class="f-w-img">
+                        <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="" />
+                    </div>
+                    <div class="f-w-text">
+                        <h1><a href="#">
+                                What is CSS?</h1></a>
+                        <div class="f-w-text-p">
+                            <p><span>2024</span></p>
+                            <p>Css</p>
+                        </div>
+                        <p class="f-w-article">
+                            CSS stands for Cascading Style Sheets CSS describes how HTML elements are to be displayed on
+                            screen, paper, or in other media CSS saves a lot of work. It can control the layout of
+                            multiple web pages all at once External stylesheets are stored in CSS files
+                        </p>
+                    </div>
+                </div>
+                <hr />
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright © 2023 All rights reserved <br><br> <b> ©Shreyash Naik </b></p>
+    </footer>
+    <script>
+        $(function () {
+            $(".toggle").on("click", function () {
+                if ($(".nav-links").hasClass("active")) {
+                    $(".nav-links").removeClass("active");
+                    $(this).find("a").html('<ion-icon name="menu-outline"></ion-icon>');
+                } else {
+                    $(".nav-links").addClass("active");
+                    $(this)
+                        .find("a")
+                        .html('<ion-icon name="close-outline"></ion-icon>');
+                }
+            });
+        });
+    </script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 70%;
+            margin: auto;
+        }
+
+        body {
+            background-color: rgb(3, 20, 94);
+            font-family: "Poppins", sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 20px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .pic {
+            border-radius: 50%;
+            position: absolute;
+            left: 1000px;
+            top: 100px;
+        }
+
+        .nav-links li a {
+            color: white;
+            font-weight: 600;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-around;
+            padding: 9px 15px;
+            transition: all 0.3s ease 0s;
+        }
+
+        .nav-links li a:hover,
+        .toggle ion-icon:hover {
+            color: rgb(1, 225, 255);
+        }
+
+        .toggle {
+            font-size: 30px;
+            display: none;
+        }
+
+        .toggle ion-icon {
+            color: #982323;
+        }
+
+
+        header {
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width: 100%;
+            height: max-content;
+        }
+
+        header h1 {
+            font-size: 30px;
+            color: rgb(253, 229, 198);
+        }
+
+        .head-img img {
+            width: 250px;
+            border-radius: 50%;
+            transition: all 0.3s ease 0s;
+        }
+
+        .head-img img:hover {
+            transform: scale(1.1);
+        }
+
+        .about {
+            font-size: 16px;
+            margin-top: 30px;
+
+        }
+
+        .down button {
+            margin-top: 30px;
+            background-color: #eafcfc;
+            border: none;
+            padding: 10px 35px;
+            border-radius: 10px;
+            font-size: 20px;
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .down button:hover {
+            transform: scale(1.1);
+        }
+
+        .section1 {
+            color: bisque;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img-article {
+            width: 60%;
+        }
+
+        .head-img {
+            display: flex;
+            align-items: center;
+            order: 1;
+        }
+
+
+
+        section.section2 {
+            width: 100%;
+            height: max-content;
+            background-color: #edf7fa;
+            padding-bottom: 20px;
+        }
+
+        .section-p {
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .recent-posts {
+            background-color: whitesmoke;
+            display: flex;
+            padding-top: 20px;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        .post-item {
+
+            border-radius: 10px;
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .post-item p {
+            padding-top: 20px;
+        }
+
+        .post-item h1 {
+            font-weight: 700;
+        }
+
+        .v-p a {
+            color: #00a8cc;
+        }
+
+        .v-p a:hover {
+            text-decoration: underline;
+        }
+
+        .c-p p {
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .section3 hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .section3 a {
+            color: white;
+            transition: all 0.3s ease 0s;
+        }
+
+        .section3 a:hover {
+            color: #ff6464;
+        }
+
+        .f-w-item {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .f-w-img img {
+            border-radius: 50%;
+            width: 250px;
+            height: 180px;
+            transition: all 0.3s ease 0s;
+        }
+
+        .f-w-img img:hover {
+            transform: scale(1.1);
+        }
+
+        .f-w-text-p {
+            display: flex;
+            gap: 50px;
+        }
+
+        .f-w-text-p p {
+
+            color: #788fa5;
+        }
+
+        .f-w-text-p span {
+            border-radius: 20px;
+            background-color: white;
+            padding: 2px 18px;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .f-w-text h1 {
+            padding: 0 0 10px 0;
+        }
+
+        .f-w-text-p {
+            margin-bottom: 10px;
+        }
+
+        .f-w-article {
+            color: white;
+            padding-right: 100px;
+        }
+
+        footer {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-buttons img {
+            width: 50px;
+        }
+
+        footer p {
+            color: white;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .social-buttons img:hover {
+            animation: shake 0.5s;
+            animation-iteration-count: infinite;
+        }
+
+        @media screen and (max-width: 800px) {
+            nav {
+                display: block;
+                position: relative;
+                padding: 15px 20px;
+            }
+
+            .nav-links {
+                margin-top: 15px;
+                display: none;
+            }
+
+            .nav-links.active,
+            .toggle {
+                display: block;
+            }
+
+            .toggle {
+                position: absolute;
+                top: 15px;
+                right: 20px;
+            }
+
+            .section1 {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+
+            .head-img {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .img-article {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .img-article h1 {
+                margin-top: 40px;
+                text-align: center;
+            }
+
+            .img-article p {
+                text-align: center;
+            }
+
+            .down {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .section2 {
+                margin-top: 20px;
+            }
+
+            .section-p .r-p {
+                margin: auto;
+            }
+
+            .v-p {
+                display: none;
+            }
+
+            .recent-posts {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .post-item {
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+
+            .container {
+                width: 90%;
+            }
+
+            .f-w-item {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .f-w-img img {
+                width: 100%;
+            }
+        }
+    </style>
+</body>
+
+</html>
